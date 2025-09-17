@@ -1,0 +1,23 @@
+# Automação Web
+playwright==1.40.0
+
+# Banco de Dados
+mysql-connector-python==8.2.0
+
+# Processamento de Dados
+pandas==2.1.4
+openpyxl==3.1.2
+
+# Configurações
+python-dotenv==1.0.0
+
+# Multiprocessing (já incluído no Python padrão)
+# concurrent.futures (já incluído no Python padrão)
+
+# Logging e utilitários (já incluídos no Python padrão)
+# pathlib (já incluído no Python padrão)
+# datetime (já incluído no Python padrão)
+# typing (já incluído no Python padrão)
+
+# Para instalação do Playwright (executar após pip install)
+# playwright install chromium

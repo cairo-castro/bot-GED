@@ -1,0 +1,65 @@
+# Ambiente virtual
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# Arquivo de configuração com credenciais
+.env
+
+# Screenshots temporários (manter estrutura da pasta mas não os arquivos)
+screenshots/*.png
+screenshots/*.jpg
+screenshots/*.jpeg
+!screenshots/.gitkeep
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# Documentos temporários (manter estrutura mas não documentos reais)
+documentos/**/
+!documentos/README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Banco de dados local
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos temporários
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Backup files
+*.bak
+*.backup
