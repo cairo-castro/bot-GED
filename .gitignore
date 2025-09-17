@@ -63,3 +63,7 @@ Thumbs.db
 # Backup files
 *.bak
 *.backup
+# Arquivos temporários MySQL
+.my.cnf.*
+.my.output.*
+.mysql.*
